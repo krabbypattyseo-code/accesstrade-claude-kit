@@ -18,6 +18,6 @@ Format entri:
 - Tipe adegan baru `klip` (b-roll, rekaman layar, footage) dan `npm run klip`. Efek suara per adegan (`sfx`) dan `npm run sfx`.
 - Brand ACCESSTRADE (navy/oranye), token `textOnBrand`/`accentOnBrand` untuk teks di latar oranye, hook Reels tanpa caption (`caption.reels.onHook: false`).
 - Render utama dicoba ulang sekali kalau Chrome lambat menyala.
-- Jalur After Effects: builder ExtendScript (`ae/`), inventaris AE, bedah project editor. **Belum dites di After Effects asli** (AE tidak ada di Mac Harist): tes pertama di PC editor lewat `/video-ae`.
+- Jalur After Effects: builder ExtendScript (`ae/jsx/aekit.jsx`, 10 tipe adegan, caption, suara, marker bab), inventaris AE, bedah project editor (`--bedah`), `.aep` lama tidak pernah ditimpa (otomatis `-v2`). Lolos 644 pemeriksaan di AE tiruan (`node ae/tools/mock-ae.mjs`). **Belum dites di After Effects asli** (AE tidak ada di Mac Harist): daftar asumsi di `ae/README.md`, tes pertama di PC editor lewat `/video-ae`.
 - Alur dari project lain: produksi 5 tahap (Domba/Ruang Fisio), playbook footage (Laycation), aturan brief (Dpurple).
 - Status tes: Remotion Mac (render draft kedua contoh, klip, brand), Windows belum dites di PC asli.

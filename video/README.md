@@ -128,8 +128,10 @@ Dari folder `video/` (jalur After Effects, di PC editor):
 | Perintah | Fungsi |
 |---|---|
 | `node ae/build.mjs --inventaris` | Data AE di PC ini → `ae/profil-ae.md` |
+| `node ae/build.mjs --bedah` | Baca project editor yang sedang terbuka (tanpa mengubahnya) → `ae/proyek/_bedah/` |
 | `node ae/build.mjs <script> --frames` | Bangun project .aep dari script + frame cek |
-| `node ae/build.mjs <script> --render` | Render .aep lewat aerender |
+| `node ae/build.mjs <script> --render` | Render .aep lewat aerender (butuh template H.264 dari inventaris) |
+| `node ae/build.mjs <script> --no-run` | Tulis `build.jsx` saja, jalankan manual di AE (File > Scripts > Run Script File) |
 | `node ae/tools/mock-ae.mjs` | Tes builder tanpa After Effects |
 
 ## Lisensi

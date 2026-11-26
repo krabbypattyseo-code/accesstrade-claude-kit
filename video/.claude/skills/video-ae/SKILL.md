@@ -45,7 +45,7 @@ node ae/build.mjs scripts/reels/00-contoh-reels.json --frames
 node ae/build.mjs scripts/youtube/00-contoh-youtube.json --frames
 ```
 
-   Lihat frame di `ae/proyek/<format>-00-.../frames/` dan hasil `result.json`. Buka .aep bersama editor. Adegan `GAGAL`, layer kosong, font salah, atau error: catat ke `kotak-masuk/untuk-improvement.md` lengkap dengan isi `result.json`, lalu jalankan `/video-improvement` di chat lain untuk memperbaikinya di PC ini.
+   Lihat frame di `ae/proyek/<format>-00-.../frames/` dan hasil `hasil.json`. Buka .aep bersama editor. Adegan `GAGAL`, layer kosong, font salah, atau error: catat ke `kotak-masuk/untuk-improvement.md` lengkap dengan isi `hasil.json`, lalu jalankan `/video-improvement` di chat lain untuk memperbaikinya di PC ini.
 6. Tambah ringkasan di `history/video-ae.md`.
 
 ## Per video
@@ -58,7 +58,7 @@ node ae/build.mjs scripts/<format>/NN-slug.json --frames
 ```
 
    Builder membuat project baru (AE meminta simpan kalau ada project yang belum disimpan, biarkan editor yang memilih), membangun main comp + satu precomp per adegan + caption + audio + marker bab, menyimpan `output/<format>/NN-slug.aep`, dan mengekspor frame tengah tiap adegan.
-3. **Cek sendiri sebelum menyerahkan:** baca `result.json` (status per adegan) dan lihat semua frame. Kendali layar aktif: ambil screenshot AE (panel Project, timeline main comp) untuk memastikan struktur rapi. Cari: teks keluar kotak, font pengganti (Arial), layer kosong, adegan `GAGAL`, audio tidak sinkron.
+3. **Cek sendiri sebelum menyerahkan:** baca `hasil.json` (status per adegan) dan lihat semua frame. Kendali layar aktif: ambil screenshot AE (panel Project, timeline main comp) untuk memastikan struktur rapi. Cari: teks keluar kotak, font pengganti (Arial), layer kosong, adegan `GAGAL`, audio tidak sinkron.
 4. **Serahkan ke editor:** jelaskan struktur project (comp utama, precomp per adegan, layer caption, marker bab). Editor memoles di AE. Kalau editor ingin bagian tertentu dibuat ulang otomatis, build ulang ke nama baru (`NN-slug-v2.aep`), jangan menimpa file yang sudah dipoles.
 5. **Render:** dari AE/Media Encoder oleh editor, atau
 

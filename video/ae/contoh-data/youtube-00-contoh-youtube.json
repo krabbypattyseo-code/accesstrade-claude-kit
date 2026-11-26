@@ -1,0 +1,1082 @@
+{
+  "format": "youtube",
+  "number": "00",
+  "slug": "contoh-youtube",
+  "title": "Kenapa susah fokus kerja? 3 penyebab dan cara mengatasinya",
+  "demo": true,
+  "chapterIntro": "Pembuka",
+  "cover": {
+    "text": "Susah *fokus*? Ini sebabnya",
+    "kicker": "Panduan"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "dur": 11,
+      "onScreen": "Kenapa susah *fokus* kerja?",
+      "vo": "Pernah duduk di depan laptop berjam-jam, tapi kerjaan nggak maju-maju? Kamu nggak sendirian. Di video ini kita bahas tiga penyebab susah fokus, dan cara sederhana untuk mengatasinya satu per satu.",
+      "props": {
+        "kicker": "Panduan",
+        "sub": "3 penyebab dan cara mengatasinya"
+      },
+      "rawType": "hook",
+      "start": 0,
+      "end": 14.349,
+      "needsConfirm": false
+    },
+    {
+      "id": 2,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian pertama, gangguan dari luar.",
+      "props": {
+        "title": "Gangguan dari luar"
+      },
+      "rawType": "bab",
+      "start": 14.349,
+      "end": 17.778,
+      "needsConfirm": false
+    },
+    {
+      "id": 3,
+      "type": "poin",
+      "dur": 7,
+      "onScreen": "Notifikasi *memecah* konsentrasi",
+      "vo": "Setiap kali HP berbunyi, perhatian kamu pindah. Walaupun cuma sebentar, butuh waktu untuk kembali ke titik semula.",
+      "props": {
+        "sub": "Satu bunyi kecil bisa menghapus beberapa menit fokus."
+      },
+      "rawType": "poin",
+      "start": 17.778,
+      "end": 26.794,
+      "needsConfirm": false
+    },
+    {
+      "id": 4,
+      "type": "daftar",
+      "dur": 9,
+      "onScreen": "Cara meredam gangguan",
+      "vo": "Ada empat cara sederhana. Aktifkan mode fokus di HP. Tutup tab yang tidak dipakai. Pakai headphone. Dan kabari rekan kerja kalau kamu sedang tidak bisa diganggu.",
+      "props": {
+        "items": [
+          {
+            "text": "Aktifkan *mode fokus* di HP",
+            "icon": "alert",
+            "onWord": "mode"
+          },
+          {
+            "text": "Tutup tab yang tidak dipakai",
+            "icon": "x",
+            "onWord": "tutup"
+          },
+          {
+            "text": "Pakai headphone",
+            "icon": "user",
+            "onWord": "headphone"
+          },
+          {
+            "text": "Kabari rekan kerja",
+            "icon": "chat",
+            "onWord": "kabari"
+          }
+        ]
+      },
+      "rawType": "daftar",
+      "start": 26.794,
+      "end": 38.934,
+      "needsConfirm": false
+    },
+    {
+      "id": 5,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian kedua, tugas yang terlalu besar.",
+      "props": {
+        "title": "Tugas yang terlalu besar"
+      },
+      "rawType": "bab",
+      "start": 38.934,
+      "end": 42.514,
+      "needsConfirm": false
+    },
+    {
+      "id": 6,
+      "type": "angka",
+      "dur": 7,
+      "vo": "Pecah pekerjaan besar jadi sesi pendek. Misalnya lima puluh menit kerja, lalu sepuluh menit istirahat.",
+      "props": {
+        "value": "50 menit",
+        "label": "satu sesi kerja, lalu *istirahat 10 menit*",
+        "kicker": "Coba ini"
+      },
+      "rawType": "angka",
+      "start": 42.514,
+      "end": 50.233,
+      "needsConfirm": false
+    },
+    {
+      "id": 7,
+      "type": "foto",
+      "dur": 7,
+      "onScreen": "Tulis *satu langkah* berikutnya",
+      "vo": "Sebelum mulai, tulis satu langkah kecil yang mau kamu selesaikan. Langkah kecil lebih mudah dimulai daripada tugas besar.",
+      "props": {
+        "image": "video/youtube-00/foto/contoh.jpg",
+        "sub": "Bukan \"selesaikan laporan\", tapi \"tulis paragraf pertama\"."
+      },
+      "rawType": "foto",
+      "start": 50.233,
+      "end": 59.052,
+      "needsConfirm": false
+    },
+    {
+      "id": 8,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian ketiga, kebiasaan multitasking.",
+      "props": {
+        "title": "Kebiasaan multitasking"
+      },
+      "rawType": "bab",
+      "start": 59.052,
+      "end": 62.841,
+      "needsConfirm": false
+    },
+    {
+      "id": 9,
+      "type": "banding",
+      "dur": 8,
+      "onScreen": "Multitasking itu cepat?",
+      "vo": "Banyak yang merasa multitasking itu cepat. Padahal faktanya, pindah-pindah tugas justru membuat pekerjaan lebih lama selesai.",
+      "props": {
+        "left": {
+          "label": "Mitos",
+          "text": "Mengerjakan banyak hal sekaligus *lebih cepat*"
+        },
+        "right": {
+          "label": "Fakta",
+          "text": "Pindah-pindah tugas *menambah waktu*"
+        },
+        "verdict": "right",
+        "revealOnWord": "faktanya"
+      },
+      "rawType": "banding",
+      "start": 62.841,
+      "end": 72.029,
+      "needsConfirm": false
+    },
+    {
+      "id": 10,
+      "type": "kutipan",
+      "dur": 6,
+      "vo": "Ingat ini. Fokus itu soal memilih apa yang tidak dikerjakan dulu.",
+      "props": {
+        "quote": "Fokus itu soal memilih apa yang *tidak* dikerjakan dulu.",
+        "by": "Tim Contoh Brand",
+        "role": "Catatan penutup"
+      },
+      "rawType": "kutipan",
+      "start": 72.029,
+      "end": 77.62,
+      "needsConfirm": false
+    },
+    {
+      "id": 11,
+      "type": "outro",
+      "dur": 12,
+      "onScreen": "Tonton video *berikutnya*",
+      "vo": "Terima kasih sudah menonton. Kalau video ini membantu, tonton juga video berikutnya di layar.",
+      "props": {
+        "sub": "Subscribe untuk panduan kerja lainnya."
+      },
+      "rawType": "outro",
+      "start": 77.62,
+      "end": 89.62,
+      "needsConfirm": false
+    }
+  ],
+  "_file": "scripts/youtube/00-contoh-youtube.json",
+  "media": {
+    "clips": [
+      {
+        "sceneId": 1,
+        "src": "video/youtube-00/vo/1.wav",
+        "start": 0.3,
+        "duration": 13.549
+      },
+      {
+        "sceneId": 2,
+        "src": "video/youtube-00/vo/2.wav",
+        "start": 14.649,
+        "duration": 2.629
+      },
+      {
+        "sceneId": 3,
+        "src": "video/youtube-00/vo/3.wav",
+        "start": 18.078,
+        "duration": 8.216
+      },
+      {
+        "sceneId": 4,
+        "src": "video/youtube-00/vo/4.wav",
+        "start": 27.094,
+        "duration": 11.339
+      },
+      {
+        "sceneId": 5,
+        "src": "video/youtube-00/vo/5.wav",
+        "start": 39.234,
+        "duration": 2.78
+      },
+      {
+        "sceneId": 6,
+        "src": "video/youtube-00/vo/6.wav",
+        "start": 42.814,
+        "duration": 6.919
+      },
+      {
+        "sceneId": 7,
+        "src": "video/youtube-00/vo/7.wav",
+        "start": 50.533,
+        "duration": 8.019
+      },
+      {
+        "sceneId": 8,
+        "src": "video/youtube-00/vo/8.wav",
+        "start": 59.352,
+        "duration": 2.989
+      },
+      {
+        "sceneId": 9,
+        "src": "video/youtube-00/vo/9.wav",
+        "start": 63.141,
+        "duration": 8.388
+      },
+      {
+        "sceneId": 10,
+        "src": "video/youtube-00/vo/10.wav",
+        "start": 72.329,
+        "duration": 4.791
+      },
+      {
+        "sceneId": 11,
+        "src": "video/youtube-00/vo/11.wav",
+        "start": 77.92,
+        "duration": 6.438
+      }
+    ]
+  },
+  "words": [
+    {
+      "text": "Pernah",
+      "startMs": 300,
+      "endMs": 774
+    },
+    {
+      "text": "duduk",
+      "startMs": 774,
+      "endMs": 1181
+    },
+    {
+      "text": "di",
+      "startMs": 1181,
+      "endMs": 1384
+    },
+    {
+      "text": "depan",
+      "startMs": 1384,
+      "endMs": 1790
+    },
+    {
+      "text": "laptop",
+      "startMs": 1790,
+      "endMs": 2265
+    },
+    {
+      "text": "berjam-jam,",
+      "startMs": 2265,
+      "endMs": 3078
+    },
+    {
+      "text": "tapi",
+      "startMs": 3078,
+      "endMs": 3416
+    },
+    {
+      "text": "kerjaan",
+      "startMs": 3416,
+      "endMs": 3958
+    },
+    {
+      "text": "nggak",
+      "startMs": 3958,
+      "endMs": 4365
+    },
+    {
+      "text": "maju-maju?",
+      "startMs": 4365,
+      "endMs": 5110
+    },
+    {
+      "text": "Kamu",
+      "startMs": 5110,
+      "endMs": 5449
+    },
+    {
+      "text": "nggak",
+      "startMs": 5449,
+      "endMs": 5855
+    },
+    {
+      "text": "sendirian.",
+      "startMs": 5855,
+      "endMs": 6668
+    },
+    {
+      "text": "Di",
+      "startMs": 6668,
+      "endMs": 6871
+    },
+    {
+      "text": "video",
+      "startMs": 6871,
+      "endMs": 7278
+    },
+    {
+      "text": "ini",
+      "startMs": 7278,
+      "endMs": 7549
+    },
+    {
+      "text": "kita",
+      "startMs": 7549,
+      "endMs": 7887
+    },
+    {
+      "text": "bahas",
+      "startMs": 7887,
+      "endMs": 8294
+    },
+    {
+      "text": "tiga",
+      "startMs": 8294,
+      "endMs": 8633
+    },
+    {
+      "text": "penyebab",
+      "startMs": 8633,
+      "endMs": 9242
+    },
+    {
+      "text": "susah",
+      "startMs": 9242,
+      "endMs": 9649
+    },
+    {
+      "text": "fokus,",
+      "startMs": 9649,
+      "endMs": 10191
+    },
+    {
+      "text": "dan",
+      "startMs": 10191,
+      "endMs": 10462
+    },
+    {
+      "text": "cara",
+      "startMs": 10462,
+      "endMs": 10800
+    },
+    {
+      "text": "sederhana",
+      "startMs": 10800,
+      "endMs": 11478
+    },
+    {
+      "text": "untuk",
+      "startMs": 11478,
+      "endMs": 11884
+    },
+    {
+      "text": "mengatasinya",
+      "startMs": 11884,
+      "endMs": 12765
+    },
+    {
+      "text": "satu",
+      "startMs": 12765,
+      "endMs": 13104
+    },
+    {
+      "text": "per",
+      "startMs": 13104,
+      "endMs": 13375
+    },
+    {
+      "text": "satu.",
+      "startMs": 13375,
+      "endMs": 13849
+    },
+    {
+      "text": "Bagian",
+      "startMs": 14649,
+      "endMs": 15133
+    },
+    {
+      "text": "pertama,",
+      "startMs": 15133,
+      "endMs": 15825
+    },
+    {
+      "text": "gangguan",
+      "startMs": 15825,
+      "endMs": 16448
+    },
+    {
+      "text": "dari",
+      "startMs": 16448,
+      "endMs": 16794
+    },
+    {
+      "text": "luar.",
+      "startMs": 16794,
+      "endMs": 17278
+    },
+    {
+      "text": "Setiap",
+      "startMs": 18078,
+      "endMs": 18561
+    },
+    {
+      "text": "kali",
+      "startMs": 18561,
+      "endMs": 18907
+    },
+    {
+      "text": "HP",
+      "startMs": 18907,
+      "endMs": 19114
+    },
+    {
+      "text": "berbunyi,",
+      "startMs": 19114,
+      "endMs": 19873
+    },
+    {
+      "text": "perhatian",
+      "startMs": 19873,
+      "endMs": 20564
+    },
+    {
+      "text": "kamu",
+      "startMs": 20564,
+      "endMs": 20909
+    },
+    {
+      "text": "pindah.",
+      "startMs": 20909,
+      "endMs": 21530
+    },
+    {
+      "text": "Walaupun",
+      "startMs": 21530,
+      "endMs": 22151
+    },
+    {
+      "text": "cuma",
+      "startMs": 22151,
+      "endMs": 22497
+    },
+    {
+      "text": "sebentar,",
+      "startMs": 22497,
+      "endMs": 23256
+    },
+    {
+      "text": "butuh",
+      "startMs": 23256,
+      "endMs": 23670
+    },
+    {
+      "text": "waktu",
+      "startMs": 23670,
+      "endMs": 24085
+    },
+    {
+      "text": "untuk",
+      "startMs": 24085,
+      "endMs": 24499
+    },
+    {
+      "text": "kembali",
+      "startMs": 24499,
+      "endMs": 25051
+    },
+    {
+      "text": "ke",
+      "startMs": 25051,
+      "endMs": 25258
+    },
+    {
+      "text": "titik",
+      "startMs": 25258,
+      "endMs": 25673
+    },
+    {
+      "text": "semula.",
+      "startMs": 25673,
+      "endMs": 26294
+    },
+    {
+      "text": "Ada",
+      "startMs": 27094,
+      "endMs": 27366
+    },
+    {
+      "text": "empat",
+      "startMs": 27366,
+      "endMs": 27773
+    },
+    {
+      "text": "cara",
+      "startMs": 27773,
+      "endMs": 28112
+    },
+    {
+      "text": "sederhana.",
+      "startMs": 28112,
+      "endMs": 28927
+    },
+    {
+      "text": "Aktifkan",
+      "startMs": 28927,
+      "endMs": 29538
+    },
+    {
+      "text": "mode",
+      "startMs": 29538,
+      "endMs": 29878
+    },
+    {
+      "text": "fokus",
+      "startMs": 29878,
+      "endMs": 30285
+    },
+    {
+      "text": "di",
+      "startMs": 30285,
+      "endMs": 30489
+    },
+    {
+      "text": "HP.",
+      "startMs": 30489,
+      "endMs": 30828
+    },
+    {
+      "text": "Tutup",
+      "startMs": 30828,
+      "endMs": 31236
+    },
+    {
+      "text": "tab",
+      "startMs": 31236,
+      "endMs": 31507
+    },
+    {
+      "text": "yang",
+      "startMs": 31507,
+      "endMs": 31847
+    },
+    {
+      "text": "tidak",
+      "startMs": 31847,
+      "endMs": 32254
+    },
+    {
+      "text": "dipakai.",
+      "startMs": 32254,
+      "endMs": 32933
+    },
+    {
+      "text": "Pakai",
+      "startMs": 32933,
+      "endMs": 33341
+    },
+    {
+      "text": "headphone.",
+      "startMs": 33341,
+      "endMs": 34155
+    },
+    {
+      "text": "Dan",
+      "startMs": 34155,
+      "endMs": 34427
+    },
+    {
+      "text": "kabari",
+      "startMs": 34427,
+      "endMs": 34902
+    },
+    {
+      "text": "rekan",
+      "startMs": 34902,
+      "endMs": 35310
+    },
+    {
+      "text": "kerja",
+      "startMs": 35310,
+      "endMs": 35717
+    },
+    {
+      "text": "kalau",
+      "startMs": 35717,
+      "endMs": 36124
+    },
+    {
+      "text": "kamu",
+      "startMs": 36124,
+      "endMs": 36464
+    },
+    {
+      "text": "sedang",
+      "startMs": 36464,
+      "endMs": 36939
+    },
+    {
+      "text": "tidak",
+      "startMs": 36939,
+      "endMs": 37347
+    },
+    {
+      "text": "bisa",
+      "startMs": 37347,
+      "endMs": 37686
+    },
+    {
+      "text": "diganggu.",
+      "startMs": 37686,
+      "endMs": 38433
+    },
+    {
+      "text": "Bagian",
+      "startMs": 39234,
+      "endMs": 39697
+    },
+    {
+      "text": "kedua,",
+      "startMs": 39697,
+      "endMs": 40227
+    },
+    {
+      "text": "tugas",
+      "startMs": 40227,
+      "endMs": 40624
+    },
+    {
+      "text": "yang",
+      "startMs": 40624,
+      "endMs": 40955
+    },
+    {
+      "text": "terlalu",
+      "startMs": 40955,
+      "endMs": 41484
+    },
+    {
+      "text": "besar.",
+      "startMs": 41484,
+      "endMs": 42014
+    },
+    {
+      "text": "Pecah",
+      "startMs": 42814,
+      "endMs": 43206
+    },
+    {
+      "text": "pekerjaan",
+      "startMs": 43206,
+      "endMs": 43858
+    },
+    {
+      "text": "besar",
+      "startMs": 43858,
+      "endMs": 44250
+    },
+    {
+      "text": "jadi",
+      "startMs": 44250,
+      "endMs": 44576
+    },
+    {
+      "text": "sesi",
+      "startMs": 44576,
+      "endMs": 44903
+    },
+    {
+      "text": "pendek.",
+      "startMs": 44903,
+      "endMs": 45490
+    },
+    {
+      "text": "Misalnya",
+      "startMs": 45490,
+      "endMs": 46078
+    },
+    {
+      "text": "lima",
+      "startMs": 46078,
+      "endMs": 46404
+    },
+    {
+      "text": "puluh",
+      "startMs": 46404,
+      "endMs": 46796
+    },
+    {
+      "text": "menit",
+      "startMs": 46796,
+      "endMs": 47187
+    },
+    {
+      "text": "kerja,",
+      "startMs": 47187,
+      "endMs": 47710
+    },
+    {
+      "text": "lalu",
+      "startMs": 47710,
+      "endMs": 48036
+    },
+    {
+      "text": "sepuluh",
+      "startMs": 48036,
+      "endMs": 48558
+    },
+    {
+      "text": "menit",
+      "startMs": 48558,
+      "endMs": 48950
+    },
+    {
+      "text": "istirahat.",
+      "startMs": 48950,
+      "endMs": 49733
+    },
+    {
+      "text": "Sebelum",
+      "startMs": 50533,
+      "endMs": 51046
+    },
+    {
+      "text": "mulai,",
+      "startMs": 51046,
+      "endMs": 51559
+    },
+    {
+      "text": "tulis",
+      "startMs": 51559,
+      "endMs": 51944
+    },
+    {
+      "text": "satu",
+      "startMs": 51944,
+      "endMs": 52265
+    },
+    {
+      "text": "langkah",
+      "startMs": 52265,
+      "endMs": 52778
+    },
+    {
+      "text": "kecil",
+      "startMs": 52778,
+      "endMs": 53163
+    },
+    {
+      "text": "yang",
+      "startMs": 53163,
+      "endMs": 53484
+    },
+    {
+      "text": "mau",
+      "startMs": 53484,
+      "endMs": 53741
+    },
+    {
+      "text": "kamu",
+      "startMs": 53741,
+      "endMs": 54061
+    },
+    {
+      "text": "selesaikan.",
+      "startMs": 54061,
+      "endMs": 54895
+    },
+    {
+      "text": "Langkah",
+      "startMs": 54895,
+      "endMs": 55409
+    },
+    {
+      "text": "kecil",
+      "startMs": 55409,
+      "endMs": 55793
+    },
+    {
+      "text": "lebih",
+      "startMs": 55793,
+      "endMs": 56178
+    },
+    {
+      "text": "mudah",
+      "startMs": 56178,
+      "endMs": 56563
+    },
+    {
+      "text": "dimulai",
+      "startMs": 56563,
+      "endMs": 57077
+    },
+    {
+      "text": "daripada",
+      "startMs": 57077,
+      "endMs": 57654
+    },
+    {
+      "text": "tugas",
+      "startMs": 57654,
+      "endMs": 58039
+    },
+    {
+      "text": "besar.",
+      "startMs": 58039,
+      "endMs": 58552
+    },
+    {
+      "text": "Bagian",
+      "startMs": 59352,
+      "endMs": 59862
+    },
+    {
+      "text": "ketiga,",
+      "startMs": 59862,
+      "endMs": 60518
+    },
+    {
+      "text": "kebiasaan",
+      "startMs": 60518,
+      "endMs": 61247
+    },
+    {
+      "text": "multitasking.",
+      "startMs": 61247,
+      "endMs": 62341
+    },
+    {
+      "text": "Banyak",
+      "startMs": 63141,
+      "endMs": 63600
+    },
+    {
+      "text": "yang",
+      "startMs": 63600,
+      "endMs": 63927
+    },
+    {
+      "text": "merasa",
+      "startMs": 63927,
+      "endMs": 64386
+    },
+    {
+      "text": "multitasking",
+      "startMs": 64386,
+      "endMs": 65238
+    },
+    {
+      "text": "itu",
+      "startMs": 65238,
+      "endMs": 65500
+    },
+    {
+      "text": "cepat.",
+      "startMs": 65500,
+      "endMs": 66024
+    },
+    {
+      "text": "Padahal",
+      "startMs": 66024,
+      "endMs": 66549
+    },
+    {
+      "text": "faktanya,",
+      "startMs": 66549,
+      "endMs": 67269
+    },
+    {
+      "text": "pindah-pindah",
+      "startMs": 67269,
+      "endMs": 68121
+    },
+    {
+      "text": "tugas",
+      "startMs": 68121,
+      "endMs": 68515
+    },
+    {
+      "text": "justru",
+      "startMs": 68515,
+      "endMs": 68973
+    },
+    {
+      "text": "membuat",
+      "startMs": 68973,
+      "endMs": 69498
+    },
+    {
+      "text": "pekerjaan",
+      "startMs": 69498,
+      "endMs": 70153
+    },
+    {
+      "text": "lebih",
+      "startMs": 70153,
+      "endMs": 70546
+    },
+    {
+      "text": "lama",
+      "startMs": 70546,
+      "endMs": 70874
+    },
+    {
+      "text": "selesai.",
+      "startMs": 70874,
+      "endMs": 71529
+    },
+    {
+      "text": "Ingat",
+      "startMs": 72329,
+      "endMs": 72752
+    },
+    {
+      "text": "ini.",
+      "startMs": 72752,
+      "endMs": 73174
+    },
+    {
+      "text": "Fokus",
+      "startMs": 73174,
+      "endMs": 73597
+    },
+    {
+      "text": "itu",
+      "startMs": 73597,
+      "endMs": 73879
+    },
+    {
+      "text": "soal",
+      "startMs": 73879,
+      "endMs": 74231
+    },
+    {
+      "text": "memilih",
+      "startMs": 74231,
+      "endMs": 74795
+    },
+    {
+      "text": "apa",
+      "startMs": 74795,
+      "endMs": 75077
+    },
+    {
+      "text": "yang",
+      "startMs": 75077,
+      "endMs": 75429
+    },
+    {
+      "text": "tidak",
+      "startMs": 75429,
+      "endMs": 75852
+    },
+    {
+      "text": "dikerjakan",
+      "startMs": 75852,
+      "endMs": 76627
+    },
+    {
+      "text": "dulu.",
+      "startMs": 76627,
+      "endMs": 77120
+    },
+    {
+      "text": "Terima",
+      "startMs": 77920,
+      "endMs": 78385
+    },
+    {
+      "text": "kasih",
+      "startMs": 78385,
+      "endMs": 78783
+    },
+    {
+      "text": "sudah",
+      "startMs": 78783,
+      "endMs": 79181
+    },
+    {
+      "text": "menonton.",
+      "startMs": 79181,
+      "endMs": 79911
+    },
+    {
+      "text": "Kalau",
+      "startMs": 79911,
+      "endMs": 80309
+    },
+    {
+      "text": "video",
+      "startMs": 80309,
+      "endMs": 80708
+    },
+    {
+      "text": "ini",
+      "startMs": 80708,
+      "endMs": 80973
+    },
+    {
+      "text": "membantu,",
+      "startMs": 80973,
+      "endMs": 81703
+    },
+    {
+      "text": "tonton",
+      "startMs": 81703,
+      "endMs": 82168
+    },
+    {
+      "text": "juga",
+      "startMs": 82168,
+      "endMs": 82500
+    },
+    {
+      "text": "video",
+      "startMs": 82500,
+      "endMs": 82898
+    },
+    {
+      "text": "berikutnya",
+      "startMs": 82898,
+      "endMs": 83628
+    },
+    {
+      "text": "di",
+      "startMs": 83628,
+      "endMs": 83827
+    },
+    {
+      "text": "layar.",
+      "startMs": 83827,
+      "endMs": 84358
+    }
+  ]
+}

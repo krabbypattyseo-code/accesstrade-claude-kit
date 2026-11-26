@@ -40,5 +40,5 @@ Diisi: YYYY-MM-DD · AE versi: (dari profil-ae.md) · Windows: ...
 node ae/build.mjs --bedah
 ```
 
-   Kalau perintah itu belum tersedia di versi builder ini, jalankan `ae/jsx/bedah-proyek.jsx` lewat *File > Scripts > Run Script File...* di AE (minta editor yang mengklik). Hasilnya `ae/proyek/_bedah/bedah-<nama project>.json`: daftar comp, layer, efek (matchName), expression, dan font yang dipakai.
+   Kalau AE tidak terbuka otomatis, jalankan `ae/jsx/bedah-proyek.jsx` lewat *File > Scripts > Run Script File...* di AE (minta editor yang mengklik). Hasilnya `ae/proyek/_bedah/bedah-<nama project>.json`: daftar comp, layer, efek (matchName), expression, dan font yang dipakai.
 3. Ringkas ke tabel "Bedah project contoh" di atas.

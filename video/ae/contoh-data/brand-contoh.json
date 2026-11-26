@@ -1,0 +1,98 @@
+{
+  "source": "brand/tokens.json v0.1-contoh",
+  "name": "Contoh Brand",
+  "short": "Contoh",
+  "handle": "@contohbrand",
+  "website": "contohbrand.id",
+  "color": {
+    "background": "#101828",
+    "surface": "#1D2939",
+    "backgroundLight": "#F6F4EF",
+    "primary": "#2E5BFF",
+    "accent": "#FFC53D",
+    "accentText": "#101828",
+    "text": "#FFFFFF",
+    "textOnLight": "#101828",
+    "muted": "#98A2B3",
+    "alert": "#E5484D"
+  },
+  "font": {
+    "display": {
+      "family": "Plus Jakarta Sans",
+      "weights": [
+        "700",
+        "800"
+      ]
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [
+        "500",
+        "600",
+        "700",
+        "800"
+      ]
+    }
+  },
+  "logo": {
+    "file": null,
+    "src": null,
+    "width": 360
+  },
+  "size": {
+    "reels": {
+      "hook": 118,
+      "title": 86,
+      "body": 50,
+      "caption": 70,
+      "label": 38,
+      "big": 240
+    },
+    "youtube": {
+      "hook": 104,
+      "title": 80,
+      "body": 44,
+      "caption": 50,
+      "label": 32,
+      "big": 220
+    }
+  },
+  "caption": {
+    "reels": {
+      "maxWords": 4,
+      "style": "karaoke"
+    },
+    "youtube": {
+      "maxWords": 8,
+      "style": "subtitle"
+    }
+  },
+  "motion": {
+    "transition": "slide",
+    "transitionFrames": 14,
+    "stagger": 6
+  },
+  "radius": {
+    "card": 32
+  },
+  "audio": {
+    "voiceLufs": -14,
+    "musicVolume": 0.5,
+    "musicDuckDb": -18
+  },
+  "rules": {
+    "bannedWords": [
+      {
+        "pattern": "\\bAnda\\b",
+        "message": "contoh aturan: brand ini pakai \"kamu\", bukan \"Anda\""
+      },
+      {
+        "pattern": "\\b(terbaik|nomor 1|termurah)\\b",
+        "message": "contoh aturan: klaim superlatif butuh data"
+      }
+    ],
+    "maxHookWords": 7,
+    "maxOnScreenWords": 12,
+    "noEmoji": true
+  }
+}

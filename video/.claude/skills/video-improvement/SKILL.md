@@ -24,7 +24,7 @@ Kamu satu-satunya sesi yang mengubah mesin video (Remotion dan builder After Eff
 | Pekerjaan | Panduan |
 |---|---|
 | Bug atau fitur di mesin Remotion | alur umum di bawah |
-| Bug di builder After Effects (`result.json` berisi error, adegan `GAGAL`, layer salah) | alur umum + bagian "Builder After Effects" |
+| Bug di builder After Effects (`hasil.json` berisi error, adegan `GAGAL`, layer salah) | alur umum + bagian "Builder After Effects" |
 | Menyesuaikan builder dengan gaya editor (dari `ae/cara-kerja-editor.md`) | bagian "Builder After Effects" |
 | Tipe adegan baru | [references/tambah-adegan.md](references/tambah-adegan.md) |
 | Ganti / perbarui brand | [references/setup-brand.md](references/setup-brand.md) |
@@ -41,7 +41,7 @@ Kamu satu-satunya sesi yang mengubah mesin video (Remotion dan builder After Eff
 
 1. **Reproduksi.**
    - Remotion: render frame yang bermasalah: `npx remotion still src/index.ts <Reels|Youtube> <file.jpg> --props=.render-props/<format>-NN-slug.json --frame=<n>` (dari `remotion/`).
-   - After Effects: baca `ae/proyek/<format>-NN-.../result.json` dan frame di `frames/`. Di PC editor, build ulang contoh: `node ae/build.mjs scripts/<format>/00-contoh-<format>.json --frames`.
+   - After Effects: baca `ae/proyek/<format>-NN-.../hasil.json` dan frame di `frames/`. Di PC editor, build ulang contoh: `node ae/build.mjs scripts/<format>/00-contoh-<format>.json --frames`.
 2. **Ubah kode** sekecil mungkin. Nilai visual dari brand/theme, bukan angka hex di komponen atau di builder.
 3. **Tes:**
 
@@ -60,7 +60,7 @@ node ae/tools/mock-ae.mjs
 ## Builder After Effects
 
 - Kode: `ae/jsx/aekit.jsx` (builder), `ae/jsx/inventaris.jsx` (profil AE), `ae/jsx/bedah-proyek.jsx` (baca project editor), `ae/build.mjs` (penghubung Node ↔ AE, aerender).
-- Satu adegan = satu fungsi builder; setiap builder dibungkus try/catch dan menulis status ke `result.json`. Jangan menghapus pola ini.
+- Satu adegan = satu fungsi builder; setiap builder dibungkus try/catch dan menulis status ke `hasil.json`. Jangan menghapus pola ini.
 - Menyesuaikan dengan editor: ambil dari `ae/cara-kerja-editor.md` (easing, durasi transisi, efek favorit). Efek pihak ketiga hanya dipakai kalau ada di `ae/profil-ae.json` (cari matchName-nya), dan selalu dengan cadangan efek bawaan AE, supaya project tetap terbuka di PC lain.
 - Tampilan AE dan Remotion boleh sedikit beda, tapi struktur (urutan adegan, timing dari rekaman, warna brand, caption) harus sama.
 

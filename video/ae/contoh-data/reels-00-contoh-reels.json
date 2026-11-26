@@ -1,0 +1,891 @@
+{
+  "format": "reels",
+  "number": "00",
+  "slug": "contoh-reels",
+  "title": "3 kebiasaan kecil biar kerja lebih fokus",
+  "demo": true,
+  "cover": {
+    "text": "3 kebiasaan biar *fokus*",
+    "kicker": "Tips kerja"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "dur": 3.5,
+      "onScreen": "3 kebiasaan kecil biar *kerja lebih fokus*",
+      "vo": "Tiga kebiasaan kecil ini bikin kerja kamu jauh lebih fokus.",
+      "props": {
+        "kicker": "Tips kerja"
+      },
+      "rawType": "hook",
+      "start": 0,
+      "end": 4.52,
+      "needsConfirm": false
+    },
+    {
+      "id": 2,
+      "type": "poin",
+      "dur": 4,
+      "onScreen": "Notifikasi itu *pencuri fokus*",
+      "vo": "Pertama, matikan notifikasi. Setiap notifikasi memecah konsentrasi kamu.",
+      "props": {
+        "kicker": "Kebiasaan 1",
+        "sub": "Matikan selama satu sesi kerja."
+      },
+      "rawType": "poin",
+      "start": 4.52,
+      "end": 10.89,
+      "needsConfirm": false
+    },
+    {
+      "id": 3,
+      "type": "angka",
+      "dur": 3.5,
+      "vo": "Coba kerja lima puluh menit, lalu istirahat sepuluh menit.",
+      "props": {
+        "value": "50 menit",
+        "label": "kerja fokus, lalu *istirahat 10 menit*"
+      },
+      "rawType": "angka",
+      "start": 10.89,
+      "end": 15.7,
+      "needsConfirm": false
+    },
+    {
+      "id": 4,
+      "type": "daftar",
+      "dur": 5,
+      "onScreen": "Siapkan sebelum mulai",
+      "vo": "Kedua, siapkan tiga hal. Satu tugas utama, air minum di meja, dan HP di dalam laci.",
+      "props": {
+        "kicker": "Kebiasaan 2",
+        "items": [
+          {
+            "text": "Satu *tugas utama*",
+            "onWord": "tugas",
+            "at": 2.68
+          },
+          {
+            "text": "Air minum di meja",
+            "onWord": "minum",
+            "at": 4.12
+          },
+          {
+            "text": "HP di dalam laci",
+            "onWord": "laci",
+            "at": 6.16
+          }
+        ]
+      },
+      "rawType": "daftar",
+      "start": 15.7,
+      "end": 22.93,
+      "needsConfirm": false
+    },
+    {
+      "id": 5,
+      "type": "banding",
+      "dur": 5,
+      "onScreen": "Multitasking itu cepat?",
+      "vo": "Ketiga, berhenti multitasking. Kelihatannya cepat, tapi faktanya pindah-pindah tugas bikin kerja lebih lambat.",
+      "props": {
+        "kicker": "Kebiasaan 3",
+        "left": {
+          "label": "Mitos",
+          "text": "Multitasking bikin *lebih cepat*"
+        },
+        "right": {
+          "label": "Fakta",
+          "text": "Pindah-pindah tugas bikin *lebih lambat*"
+        },
+        "verdict": "right",
+        "revealOnWord": "faktanya",
+        "revealAt": 4.31
+      },
+      "rawType": "banding",
+      "start": 22.93,
+      "end": 31.26,
+      "needsConfirm": false
+    },
+    {
+      "id": 6,
+      "type": "foto",
+      "dur": 3,
+      "onScreen": "Meja rapi, *pikiran ikut rapi*",
+      "vo": "Bonus, rapikan meja kerja sebelum mulai.",
+      "props": {
+        "image": "video/reels-00/foto/contoh.jpg"
+      },
+      "rawType": "foto",
+      "start": 31.26,
+      "end": 35.27,
+      "needsConfirm": false
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "dur": 3,
+      "onScreen": "Simpan, coba *besok pagi*",
+      "vo": "Simpan video ini, lalu coba besok pagi.",
+      "rawType": "outro",
+      "start": 35.27,
+      "end": 39.1,
+      "needsConfirm": false,
+      "props": {}
+    }
+  ],
+  "_file": "scripts/reels/00-contoh-reels.json",
+  "media": {
+    "clips": [
+      {
+        "sceneId": 1,
+        "src": "video/reels-00/vo/1.wav",
+        "start": 0.25,
+        "duration": 3.87,
+        "words": [
+          {
+            "text": "Tiga",
+            "startMs": 0,
+            "endMs": 190
+          },
+          {
+            "text": "kebiasaan",
+            "startMs": 190,
+            "endMs": 950
+          },
+          {
+            "text": "kecil",
+            "startMs": 950,
+            "endMs": 1370
+          },
+          {
+            "text": "ini",
+            "startMs": 1370,
+            "endMs": 1630
+          },
+          {
+            "text": "bikin",
+            "startMs": 1630,
+            "endMs": 2070
+          },
+          {
+            "text": "kerja",
+            "startMs": 2070,
+            "endMs": 2450
+          },
+          {
+            "text": "kamu",
+            "startMs": 2450,
+            "endMs": 2770
+          },
+          {
+            "text": "jauh",
+            "startMs": 2770,
+            "endMs": 3110
+          },
+          {
+            "text": "lebih",
+            "startMs": 3110,
+            "endMs": 3330
+          },
+          {
+            "text": "fokus.",
+            "startMs": 3330,
+            "endMs": 3730
+          }
+        ]
+      },
+      {
+        "sceneId": 2,
+        "src": "video/reels-00/vo/2.wav",
+        "start": 4.77,
+        "duration": 5.72,
+        "words": [
+          {
+            "text": "Pertama,",
+            "startMs": 60,
+            "endMs": 820
+          },
+          {
+            "text": "matikan",
+            "startMs": 1180,
+            "endMs": 1540
+          },
+          {
+            "text": "notifikasi.",
+            "startMs": 1540,
+            "endMs": 2400
+          },
+          {
+            "text": "Setiap",
+            "startMs": 2700,
+            "endMs": 3200
+          },
+          {
+            "text": "notifikasi",
+            "startMs": 3200,
+            "endMs": 4020
+          },
+          {
+            "text": "memecah",
+            "startMs": 4020,
+            "endMs": 4520
+          },
+          {
+            "text": "konsentrasi",
+            "startMs": 4520,
+            "endMs": 5300
+          },
+          {
+            "text": "kamu.",
+            "startMs": 5300,
+            "endMs": 5580
+          }
+        ]
+      },
+      {
+        "sceneId": 3,
+        "src": "video/reels-00/vo/3.wav",
+        "start": 11.14,
+        "duration": 4.16,
+        "words": [
+          {
+            "text": "Coba",
+            "startMs": 60,
+            "endMs": 480
+          },
+          {
+            "text": "kerja",
+            "startMs": 480,
+            "endMs": 840
+          },
+          {
+            "text": "lima",
+            "startMs": 840,
+            "endMs": 1030
+          },
+          {
+            "text": "puluh",
+            "startMs": 1030,
+            "endMs": 1220
+          },
+          {
+            "text": "menit,",
+            "startMs": 1220,
+            "endMs": 1900
+          },
+          {
+            "text": "lalu",
+            "startMs": 2120,
+            "endMs": 2400
+          },
+          {
+            "text": "istirahat",
+            "startMs": 2400,
+            "endMs": 3080
+          },
+          {
+            "text": "sepuluh",
+            "startMs": 3080,
+            "endMs": 3380
+          },
+          {
+            "text": "menit.",
+            "startMs": 3380,
+            "endMs": 4020
+          }
+        ]
+      },
+      {
+        "sceneId": 4,
+        "src": "video/reels-00/vo/4.wav",
+        "start": 15.95,
+        "duration": 6.58,
+        "words": [
+          {
+            "text": "Kedua,",
+            "startMs": 60,
+            "endMs": 520
+          },
+          {
+            "text": "siapkan",
+            "startMs": 900,
+            "endMs": 1320
+          },
+          {
+            "text": "tiga",
+            "startMs": 1320,
+            "endMs": 1580
+          },
+          {
+            "text": "hal.",
+            "startMs": 1580,
+            "endMs": 1940
+          },
+          {
+            "text": "Satu",
+            "startMs": 2300,
+            "endMs": 2580
+          },
+          {
+            "text": "tugas",
+            "startMs": 2580,
+            "endMs": 3080
+          },
+          {
+            "text": "utama,",
+            "startMs": 3080,
+            "endMs": 3520
+          },
+          {
+            "text": "air",
+            "startMs": 3840,
+            "endMs": 4020
+          },
+          {
+            "text": "minum",
+            "startMs": 4020,
+            "endMs": 4400
+          },
+          {
+            "text": "di",
+            "startMs": 4400,
+            "endMs": 4600
+          },
+          {
+            "text": "meja,",
+            "startMs": 4600,
+            "endMs": 4940
+          },
+          {
+            "text": "dan",
+            "startMs": 5220,
+            "endMs": 5360
+          },
+          {
+            "text": "HP",
+            "startMs": 5360,
+            "endMs": 5660
+          },
+          {
+            "text": "di",
+            "startMs": 5660,
+            "endMs": 5860
+          },
+          {
+            "text": "dalam",
+            "startMs": 5860,
+            "endMs": 6060
+          },
+          {
+            "text": "laci.",
+            "startMs": 6060,
+            "endMs": 6440
+          }
+        ]
+      },
+      {
+        "sceneId": 5,
+        "src": "video/reels-00/vo/5.wav",
+        "start": 23.18,
+        "duration": 7.68,
+        "words": [
+          {
+            "text": "Ketiga,",
+            "startMs": 60,
+            "endMs": 540
+          },
+          {
+            "text": "berhenti",
+            "startMs": 880,
+            "endMs": 1240
+          },
+          {
+            "text": "multitasking.",
+            "startMs": 1240,
+            "endMs": 2120
+          },
+          {
+            "text": "Kelihatannya",
+            "startMs": 2120,
+            "endMs": 3200
+          },
+          {
+            "text": "cepat,",
+            "startMs": 3200,
+            "endMs": 3760
+          },
+          {
+            "text": "tapi",
+            "startMs": 3960,
+            "endMs": 4260
+          },
+          {
+            "text": "faktanya",
+            "startMs": 4260,
+            "endMs": 4840
+          },
+          {
+            "text": "pindah-pindah",
+            "startMs": 4840,
+            "endMs": 5640
+          },
+          {
+            "text": "tugas",
+            "startMs": 5640,
+            "endMs": 6040
+          },
+          {
+            "text": "bikin",
+            "startMs": 6040,
+            "endMs": 6420
+          },
+          {
+            "text": "kerja",
+            "startMs": 6420,
+            "endMs": 6820
+          },
+          {
+            "text": "lebih",
+            "startMs": 6820,
+            "endMs": 7040
+          },
+          {
+            "text": "lambat.",
+            "startMs": 7040,
+            "endMs": 7540
+          }
+        ]
+      },
+      {
+        "sceneId": 6,
+        "src": "video/reels-00/vo/6.wav",
+        "start": 31.51,
+        "duration": 3.36,
+        "words": [
+          {
+            "text": "Bonus,",
+            "startMs": 60,
+            "endMs": 660
+          },
+          {
+            "text": "rapikan",
+            "startMs": 1060,
+            "endMs": 1480
+          },
+          {
+            "text": "meja",
+            "startMs": 1480,
+            "endMs": 1940
+          },
+          {
+            "text": "kerja",
+            "startMs": 1940,
+            "endMs": 2360
+          },
+          {
+            "text": "sebelum",
+            "startMs": 2360,
+            "endMs": 2760
+          },
+          {
+            "text": "mulai.",
+            "startMs": 2760,
+            "endMs": 3220
+          }
+        ]
+      },
+      {
+        "sceneId": 7,
+        "src": "video/reels-00/vo/7.wav",
+        "start": 35.52,
+        "duration": 3.18,
+        "words": [
+          {
+            "text": "Simpan",
+            "startMs": 60,
+            "endMs": 540
+          },
+          {
+            "text": "video",
+            "startMs": 540,
+            "endMs": 880
+          },
+          {
+            "text": "ini,",
+            "startMs": 880,
+            "endMs": 1260
+          },
+          {
+            "text": "lalu",
+            "startMs": 1600,
+            "endMs": 1880
+          },
+          {
+            "text": "coba",
+            "startMs": 1880,
+            "endMs": 2240
+          },
+          {
+            "text": "besok",
+            "startMs": 2240,
+            "endMs": 2600
+          },
+          {
+            "text": "pagi.",
+            "startMs": 2600,
+            "endMs": 3040
+          }
+        ]
+      }
+    ]
+  },
+  "words": [
+    {
+      "text": "Tiga",
+      "startMs": 250,
+      "endMs": 440
+    },
+    {
+      "text": "kebiasaan",
+      "startMs": 440,
+      "endMs": 1200
+    },
+    {
+      "text": "kecil",
+      "startMs": 1200,
+      "endMs": 1620
+    },
+    {
+      "text": "ini",
+      "startMs": 1620,
+      "endMs": 1880
+    },
+    {
+      "text": "bikin",
+      "startMs": 1880,
+      "endMs": 2320
+    },
+    {
+      "text": "kerja",
+      "startMs": 2320,
+      "endMs": 2700
+    },
+    {
+      "text": "kamu",
+      "startMs": 2700,
+      "endMs": 3020
+    },
+    {
+      "text": "jauh",
+      "startMs": 3020,
+      "endMs": 3360
+    },
+    {
+      "text": "lebih",
+      "startMs": 3360,
+      "endMs": 3580
+    },
+    {
+      "text": "fokus.",
+      "startMs": 3580,
+      "endMs": 3980
+    },
+    {
+      "text": "Pertama,",
+      "startMs": 4830,
+      "endMs": 5590
+    },
+    {
+      "text": "matikan",
+      "startMs": 5950,
+      "endMs": 6310
+    },
+    {
+      "text": "notifikasi.",
+      "startMs": 6310,
+      "endMs": 7170
+    },
+    {
+      "text": "Setiap",
+      "startMs": 7470,
+      "endMs": 7970
+    },
+    {
+      "text": "notifikasi",
+      "startMs": 7970,
+      "endMs": 8790
+    },
+    {
+      "text": "memecah",
+      "startMs": 8790,
+      "endMs": 9290
+    },
+    {
+      "text": "konsentrasi",
+      "startMs": 9290,
+      "endMs": 10070
+    },
+    {
+      "text": "kamu.",
+      "startMs": 10070,
+      "endMs": 10350
+    },
+    {
+      "text": "Coba",
+      "startMs": 11200,
+      "endMs": 11620
+    },
+    {
+      "text": "kerja",
+      "startMs": 11620,
+      "endMs": 11980
+    },
+    {
+      "text": "lima",
+      "startMs": 11980,
+      "endMs": 12170
+    },
+    {
+      "text": "puluh",
+      "startMs": 12170,
+      "endMs": 12360
+    },
+    {
+      "text": "menit,",
+      "startMs": 12360,
+      "endMs": 13040
+    },
+    {
+      "text": "lalu",
+      "startMs": 13260,
+      "endMs": 13540
+    },
+    {
+      "text": "istirahat",
+      "startMs": 13540,
+      "endMs": 14220
+    },
+    {
+      "text": "sepuluh",
+      "startMs": 14220,
+      "endMs": 14520
+    },
+    {
+      "text": "menit.",
+      "startMs": 14520,
+      "endMs": 15160
+    },
+    {
+      "text": "Kedua,",
+      "startMs": 16010,
+      "endMs": 16470
+    },
+    {
+      "text": "siapkan",
+      "startMs": 16850,
+      "endMs": 17270
+    },
+    {
+      "text": "tiga",
+      "startMs": 17270,
+      "endMs": 17530
+    },
+    {
+      "text": "hal.",
+      "startMs": 17530,
+      "endMs": 17890
+    },
+    {
+      "text": "Satu",
+      "startMs": 18250,
+      "endMs": 18530
+    },
+    {
+      "text": "tugas",
+      "startMs": 18530,
+      "endMs": 19030
+    },
+    {
+      "text": "utama,",
+      "startMs": 19030,
+      "endMs": 19470
+    },
+    {
+      "text": "air",
+      "startMs": 19790,
+      "endMs": 19970
+    },
+    {
+      "text": "minum",
+      "startMs": 19970,
+      "endMs": 20350
+    },
+    {
+      "text": "di",
+      "startMs": 20350,
+      "endMs": 20550
+    },
+    {
+      "text": "meja,",
+      "startMs": 20550,
+      "endMs": 20890
+    },
+    {
+      "text": "dan",
+      "startMs": 21170,
+      "endMs": 21310
+    },
+    {
+      "text": "HP",
+      "startMs": 21310,
+      "endMs": 21610
+    },
+    {
+      "text": "di",
+      "startMs": 21610,
+      "endMs": 21810
+    },
+    {
+      "text": "dalam",
+      "startMs": 21810,
+      "endMs": 22010
+    },
+    {
+      "text": "laci.",
+      "startMs": 22010,
+      "endMs": 22390
+    },
+    {
+      "text": "Ketiga,",
+      "startMs": 23240,
+      "endMs": 23720
+    },
+    {
+      "text": "berhenti",
+      "startMs": 24060,
+      "endMs": 24420
+    },
+    {
+      "text": "multitasking.",
+      "startMs": 24420,
+      "endMs": 25300
+    },
+    {
+      "text": "Kelihatannya",
+      "startMs": 25300,
+      "endMs": 26380
+    },
+    {
+      "text": "cepat,",
+      "startMs": 26380,
+      "endMs": 26940
+    },
+    {
+      "text": "tapi",
+      "startMs": 27140,
+      "endMs": 27440
+    },
+    {
+      "text": "faktanya",
+      "startMs": 27440,
+      "endMs": 28020
+    },
+    {
+      "text": "pindah-pindah",
+      "startMs": 28020,
+      "endMs": 28820
+    },
+    {
+      "text": "tugas",
+      "startMs": 28820,
+      "endMs": 29220
+    },
+    {
+      "text": "bikin",
+      "startMs": 29220,
+      "endMs": 29600
+    },
+    {
+      "text": "kerja",
+      "startMs": 29600,
+      "endMs": 30000
+    },
+    {
+      "text": "lebih",
+      "startMs": 30000,
+      "endMs": 30220
+    },
+    {
+      "text": "lambat.",
+      "startMs": 30220,
+      "endMs": 30720
+    },
+    {
+      "text": "Bonus,",
+      "startMs": 31570,
+      "endMs": 32170
+    },
+    {
+      "text": "rapikan",
+      "startMs": 32570,
+      "endMs": 32990
+    },
+    {
+      "text": "meja",
+      "startMs": 32990,
+      "endMs": 33450
+    },
+    {
+      "text": "kerja",
+      "startMs": 33450,
+      "endMs": 33870
+    },
+    {
+      "text": "sebelum",
+      "startMs": 33870,
+      "endMs": 34270
+    },
+    {
+      "text": "mulai.",
+      "startMs": 34270,
+      "endMs": 34730
+    },
+    {
+      "text": "Simpan",
+      "startMs": 35580,
+      "endMs": 36060
+    },
+    {
+      "text": "video",
+      "startMs": 36060,
+      "endMs": 36400
+    },
+    {
+      "text": "ini,",
+      "startMs": 36400,
+      "endMs": 36780
+    },
+    {
+      "text": "lalu",
+      "startMs": 37120,
+      "endMs": 37400
+    },
+    {
+      "text": "coba",
+      "startMs": 37400,
+      "endMs": 37760
+    },
+    {
+      "text": "besok",
+      "startMs": 37760,
+      "endMs": 38120
+    },
+    {
+      "text": "pagi.",
+      "startMs": 38120,
+      "endMs": 38560
+    }
+  ]
+}
