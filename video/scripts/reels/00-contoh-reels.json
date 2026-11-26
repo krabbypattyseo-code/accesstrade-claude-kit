@@ -1,0 +1,117 @@
+{
+  "format": "reels",
+  "number": "00",
+  "slug": "contoh-reels",
+  "title": "3 kebiasaan kecil biar kerja lebih fokus",
+  "demo": true,
+  "cover": {
+    "text": "3 kebiasaan biar *fokus*",
+    "kicker": "Tips kerja"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "dur": 3.5,
+      "onScreen": "3 kebiasaan kecil biar *kerja lebih fokus*",
+      "vo": "Tiga kebiasaan kecil ini bikin kerja kamu jauh lebih fokus.",
+      "props": {
+        "kicker": "Tips kerja"
+      }
+    },
+    {
+      "id": 2,
+      "type": "poin",
+      "dur": 4,
+      "onScreen": "Notifikasi itu *pencuri fokus*",
+      "vo": "Pertama, matikan notifikasi. Setiap notifikasi memecah konsentrasi kamu.",
+      "props": {
+        "kicker": "Kebiasaan 1",
+        "sub": "Matikan selama satu sesi kerja."
+      }
+    },
+    {
+      "id": 3,
+      "type": "angka",
+      "dur": 3.5,
+      "vo": "Coba kerja lima puluh menit, lalu istirahat sepuluh menit.",
+      "props": {
+        "value": "50 menit",
+        "label": "kerja fokus, lalu *istirahat 10 menit*"
+      }
+    },
+    {
+      "id": 4,
+      "type": "daftar",
+      "dur": 5,
+      "onScreen": "Siapkan sebelum mulai",
+      "vo": "Kedua, siapkan tiga hal. Satu tugas utama, air minum di meja, dan HP di dalam laci.",
+      "props": {
+        "kicker": "Kebiasaan 2",
+        "items": [
+          {
+            "text": "Satu *tugas utama*",
+            "onWord": "tugas"
+          },
+          {
+            "text": "Air minum di meja",
+            "onWord": "minum"
+          },
+          {
+            "text": "HP di dalam laci",
+            "onWord": "laci"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "banding",
+      "dur": 5,
+      "onScreen": "Multitasking itu cepat?",
+      "vo": "Ketiga, berhenti multitasking. Kelihatannya cepat, tapi faktanya pindah-pindah tugas bikin kerja lebih lambat.",
+      "props": {
+        "kicker": "Kebiasaan 3",
+        "left": {
+          "label": "Mitos",
+          "text": "Multitasking bikin *lebih cepat*"
+        },
+        "right": {
+          "label": "Fakta",
+          "text": "Pindah-pindah tugas bikin *lebih lambat*"
+        },
+        "verdict": "right",
+        "revealOnWord": "faktanya"
+      }
+    },
+    {
+      "id": 6,
+      "type": "foto",
+      "dur": 3,
+      "onScreen": "Meja rapi, *pikiran ikut rapi*",
+      "vo": "Bonus, rapikan meja kerja sebelum mulai.",
+      "props": {
+        "image": "video/reels-00/foto/contoh.jpg"
+      }
+    },
+    {
+      "type": "klip",
+      "dur": 3,
+      "onScreen": "Mulai dari *satu tugas*",
+      "vo": "Lalu mulai dari satu tugas saja.",
+      "transition": "cut",
+      "props": {
+        "src": "video/reels-00/klip/contoh-broll.mp4",
+        "kicker": "Klip"
+      },
+      "id": 7
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "dur": 3,
+      "onScreen": "Simpan, coba *besok pagi*",
+      "vo": "Simpan video ini, lalu coba besok pagi."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "format": "youtube",
+  "number": "00",
+  "slug": "contoh-youtube",
+  "title": "Kenapa susah fokus kerja? 3 penyebab dan cara mengatasinya",
+  "demo": true,
+  "chapterIntro": "Pembuka",
+  "cover": {
+    "text": "Susah *fokus*? Ini sebabnya",
+    "kicker": "Panduan"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "hook",
+      "dur": 11,
+      "onScreen": "Kenapa susah *fokus* kerja?",
+      "vo": "Pernah duduk di depan laptop berjam-jam, tapi kerjaan nggak maju-maju? Kamu nggak sendirian. Di video ini kita bahas tiga penyebab susah fokus, dan cara sederhana untuk mengatasinya satu per satu.",
+      "props": {
+        "kicker": "Panduan",
+        "sub": "3 penyebab dan cara mengatasinya"
+      }
+    },
+    {
+      "id": 2,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian pertama, gangguan dari luar.",
+      "props": {
+        "title": "Gangguan dari luar"
+      }
+    },
+    {
+      "id": 3,
+      "type": "poin",
+      "dur": 7,
+      "onScreen": "Notifikasi *memecah* konsentrasi",
+      "vo": "Setiap kali HP berbunyi, perhatian kamu pindah. Walaupun cuma sebentar, butuh waktu untuk kembali ke titik semula.",
+      "props": {
+        "sub": "Satu bunyi kecil bisa menghapus beberapa menit fokus."
+      }
+    },
+    {
+      "id": 4,
+      "type": "daftar",
+      "dur": 9,
+      "onScreen": "Cara meredam gangguan",
+      "vo": "Ada empat cara sederhana. Aktifkan mode fokus di HP. Tutup tab yang tidak dipakai. Pakai headphone. Dan kabari rekan kerja kalau kamu sedang tidak bisa diganggu.",
+      "props": {
+        "items": [
+          {
+            "text": "Aktifkan *mode fokus* di HP",
+            "icon": "alert",
+            "onWord": "mode"
+          },
+          {
+            "text": "Tutup tab yang tidak dipakai",
+            "icon": "x",
+            "onWord": "tutup"
+          },
+          {
+            "text": "Pakai headphone",
+            "icon": "user",
+            "onWord": "headphone"
+          },
+          {
+            "text": "Kabari rekan kerja",
+            "icon": "chat",
+            "onWord": "kabari"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian kedua, tugas yang terlalu besar.",
+      "props": {
+        "title": "Tugas yang terlalu besar"
+      }
+    },
+    {
+      "id": 6,
+      "type": "angka",
+      "dur": 7,
+      "vo": "Pecah pekerjaan besar jadi sesi pendek. Misalnya lima puluh menit kerja, lalu sepuluh menit istirahat.",
+      "props": {
+        "value": "50 menit",
+        "label": "satu sesi kerja, lalu *istirahat 10 menit*",
+        "kicker": "Coba ini"
+      }
+    },
+    {
+      "id": 7,
+      "type": "foto",
+      "dur": 7,
+      "onScreen": "Tulis *satu langkah* berikutnya",
+      "vo": "Sebelum mulai, tulis satu langkah kecil yang mau kamu selesaikan. Langkah kecil lebih mudah dimulai daripada tugas besar.",
+      "props": {
+        "image": "video/youtube-00/foto/contoh.jpg",
+        "sub": "Bukan \"selesaikan laporan\", tapi \"tulis paragraf pertama\"."
+      }
+    },
+    {
+      "id": 8,
+      "type": "bab",
+      "dur": 3,
+      "vo": "Bagian ketiga, kebiasaan multitasking.",
+      "props": {
+        "title": "Kebiasaan multitasking"
+      }
+    },
+    {
+      "id": 9,
+      "type": "banding",
+      "dur": 8,
+      "onScreen": "Multitasking itu cepat?",
+      "vo": "Banyak yang merasa multitasking itu cepat. Padahal faktanya, pindah-pindah tugas justru membuat pekerjaan lebih lama selesai.",
+      "props": {
+        "left": {
+          "label": "Mitos",
+          "text": "Mengerjakan banyak hal sekaligus *lebih cepat*"
+        },
+        "right": {
+          "label": "Fakta",
+          "text": "Pindah-pindah tugas *menambah waktu*"
+        },
+        "verdict": "right",
+        "revealOnWord": "faktanya"
+      }
+    },
+    {
+      "id": 10,
+      "type": "kutipan",
+      "dur": 6,
+      "vo": "Ingat ini. Fokus itu soal memilih apa yang tidak dikerjakan dulu.",
+      "props": {
+        "quote": "Fokus itu soal memilih apa yang *tidak* dikerjakan dulu.",
+        "by": "Tim Contoh Brand",
+        "role": "Catatan penutup"
+      }
+    },
+    {
+      "type": "klip",
+      "dur": 5,
+      "onScreen": "Mulai dari *satu langkah*",
+      "vo": "Mulai dari satu langkah kecil, lalu biarkan momentumnya jalan.",
+      "props": {
+        "src": "video/youtube-00/klip/contoh-broll.mp4",
+        "kicker": "Klip",
+        "text": "Contoh b-roll"
+      },
+      "id": 11
+    },
+    {
+      "id": 12,
+      "type": "outro",
+      "dur": 12,
+      "onScreen": "Tonton video *berikutnya*",
+      "vo": "Terima kasih sudah menonton. Kalau video ini membantu, tonton juga video berikutnya di layar.",
+      "props": {
+        "sub": "Subscribe untuk panduan kerja lainnya."
+      }
+    }
+  ]
+}

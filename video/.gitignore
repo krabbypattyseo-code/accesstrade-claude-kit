@@ -1,0 +1,29 @@
+# Dipasang ulang lewat setup (lihat README)
+remotion/node_modules/
+remotion/.venv/
+remotion/.claude/skills/
+remotion/.agents/
+remotion/skills-lock.json
+
+# Dibuat otomatis
+remotion/.render-props/
+remotion/src/generated/
+rekaman/olah/
+
+# Media besar (simpan di Drive / SSD, bukan di git)
+rekaman/**/*.m4a
+rekaman/**/*.wav
+rekaman/**/*.mp3
+output/**/*.mp4
+.DS_Store
+
+# Lisensi pribadi Harist: jangan pernah ikut di git atau paket
+.claude/skills/motion-format/
+motion-format/
+
+# Jalur After Effects (per mesin)
+ae/proyek/
+ae/profil-ae.json
+ae/profil-ae.md
+output/**/*.aep
+_paket/

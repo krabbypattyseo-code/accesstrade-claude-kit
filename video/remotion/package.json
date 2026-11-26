@@ -1,0 +1,33 @@
+{
+  "name": "remotion-video-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "node sync.mjs && remotion studio",
+    "sync": "node sync.mjs",
+    "cek": "node tools/cek.mjs",
+    "render": "node render.mjs",
+    "vo": "node tools/vo.mjs",
+    "demo-vo": "node tools/demo-vo.mjs",
+    "foto": "node tools/foto.mjs",
+    "musik": "node tools/musik.mjs",
+    "klip": "node tools/klip.mjs",
+    "sfx": "node tools/sfx.mjs",
+    "typecheck": "node sync.mjs && tsc --noEmit",
+    "setup:python": "node tools/setup-python.mjs",
+    "setup:skills": "remotion skills add"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "@remotion/google-fonts": "4.0.546",
+    "@remotion/media": "4.0.546",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}

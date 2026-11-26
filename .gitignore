@@ -1,0 +1,27 @@
+.DS_Store
+
+# Lisensi pribadi Harist (Motion Format): tidak boleh ikut ke git, GitHub, atau paket apa pun
+video/.claude/skills/motion-format/
+video/motion-format/
+
+# Modul video: dipasang ulang lewat setup (lihat video/README.md)
+video/remotion/node_modules/
+video/remotion/.venv/
+video/remotion/.agents/
+video/remotion/.claude/skills/
+video/remotion/skills-lock.json
+
+# Modul video: dibuat otomatis / per mesin / berukuran besar
+video/remotion/.render-props/
+video/remotion/src/generated/
+video/remotion/public/video/*/vo/
+video/rekaman/olah/
+video/rekaman/**/*.m4a
+video/rekaman/**/*.wav
+video/rekaman/**/*.mp3
+video/output/**/*.mp4
+video/output/**/*.aep
+video/ae/proyek/
+video/ae/profil-ae.json
+video/ae/profil-ae.md
+video/_paket/
